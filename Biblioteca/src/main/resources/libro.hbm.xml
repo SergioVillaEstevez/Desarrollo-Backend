@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    
+    <hibernate-mapping>
+    
+    <class name="Libro" table="Libro" catalog="bibliotecapac">
+    
+    	<id name="idLibro">
+    	
+    		<column name="libro_id"></column>
+    		<generator class="increment"></generator>
+    		
+    	
+    	
+    	</id>
+    	
+    	<property name="titulo"></property>
+    	<property name="autor"></property>
+    	<property name="anoDePublicacion" type="integer"></property>
+    	<property name="disponible" type="boolean"></property>
+    	
+    
+    
+    </class>
+    
+    
+    </hibernate-mapping>

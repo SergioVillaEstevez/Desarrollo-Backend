@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>IlernaPAC</groupId>
+  <artifactId>BibliotecaPAC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+
+	<dependencies>
+	
+				<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+			<dependency>
+			    <groupId>org.hibernate</groupId>
+			    <artifactId>hibernate-core</artifactId>
+			    <version>5.6.12.Final</version>
+			</dependency>
+
+			
+				<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+			<dependency>
+			    <groupId>mysql</groupId>
+			    <artifactId>mysql-connector-java</artifactId>
+			    <version>8.0.33</version>
+			</dependency>
+			  	<!-- Mockito -->
+		    <dependency>
+		        <groupId>org.mockito</groupId>
+		        <artifactId>mockito-core</artifactId>
+		        <version>3.11.2</version> <!-- Verifica la versión más reciente en el sitio web de Mockito -->
+		        <scope>test</scope>
+		    </dependency>
+					
+					
+				<!-- JUnit 5 API -->
+		    <dependency>
+		        <groupId>org.junit.jupiter</groupId>
+		        <artifactId>junit-jupiter-api</artifactId>
+		        <version>5.7.2</version>
+		        <scope>test</scope>
+		    </dependency>
+		    
+		   	 	<!-- JUnit 5 Engine -->
+		    <dependency>
+		        <groupId>org.junit.jupiter</groupId>
+		        <artifactId>junit-jupiter-engine</artifactId>
+		        <version>5.7.2</version>
+		        <scope>test</scope>
+		    </dependency>
+		
+		
+	</dependencies>
+
+
+
+
+</project>
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
