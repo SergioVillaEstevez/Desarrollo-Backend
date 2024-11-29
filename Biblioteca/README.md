@@ -49,4 +49,3 @@ Para ejecutar las pruebas unitarias, puedes utilizar JUnit desde Eclipse o ejecu
 mvn test
 
 
-Este proyecto esta realizado por Sergio Villa Estévez, para PAC  de desarrollo de acceso a datos.
